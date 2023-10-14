@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navDiv">
+    <fragment
+        android:id="@+id/navDiv"
+        android:name="com.example.tes2parcial.ui.Fragments.DivFragment"
+        android:label="fragment_div"
+        tools:layout="@layout/fragment_div" />
+    <fragment
+        android:id="@+id/navEdad"
+        android:name="com.example.tes2parcial.ui.Fragments.EdadFragment"
+        android:label="fragment_edad"
+        tools:layout="@layout/fragment_edad" />
+    <fragment
+        android:id="@+id/navCont"
+        android:name="com.example.tes2parcial.ui.Fragments.ContFragment"
+        android:label="fragment_cont"
+        tools:layout="@layout/fragment_cont" />
+</navigation>
